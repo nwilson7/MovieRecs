@@ -8,7 +8,7 @@ class Movie:
         self.rating = new_rating
 
     def get_details(self):
-        return f"{self.title} ({self.genre}) - Rating: {self.rating}"
+        return f"Title: {self.title}, Genre: {self.genre}, Rating: {self.rating}"
 
 
 # Testing:
