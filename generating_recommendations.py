@@ -1,5 +1,4 @@
-from movie_management import *
-from userProfiles import *
+from movie_management import movie_catalog
 from add_new_movies import *
 
 def gen_recs():
@@ -8,8 +7,7 @@ def gen_recs():
     print()
     list1 = []
     for movie in movie_catalog:
-        if movie["genre"] in pref_genres:
+        if movie["genre"] == pref_genres:
             list1.append(movie["title"])
     return list1
-print(f"Your movie recommendations are: {gen_recs()}")
 

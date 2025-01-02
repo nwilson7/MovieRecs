@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a456eb4e-2d12-438e-b447-91eaf3a946a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MovieRecs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MovieRecs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/add_new_movies.py" beforeDir="false" afterPath="$PROJECT_DIR$/add_new_movies.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generating_recommendations.py" beforeDir="false" afterPath="$PROJECT_DIR$/generating_recommendations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userProfiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/userProfiles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie_management.py" beforeDir="false" afterPath="$PROJECT_DIR$/movie_management.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -32,12 +39,12 @@
     &quot;assignee&quot;: &quot;nwilson7&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/nwilson7/MovieRecs.git&quot;,
-    &quot;accountId&quot;: &quot;800f623c-5d63-4fca-ab24-ce0368bdc92c&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/nwilson7/MovieRecs.git",
+    "accountId": "c4f041e1-0508-4dbd-9234-0a449be4ade8"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -49,17 +56,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.generating_recommendations.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.movie_management.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "UI",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-495700d161d3-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.220" />
+        <option value="bundled-python-sdk-1b1018131e27-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.180" />
       </set>
     </attachedChunks>
   </component>
