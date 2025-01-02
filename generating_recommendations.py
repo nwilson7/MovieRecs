@@ -1,15 +1,13 @@
-from movie_management import *
-from userProfiles import *
+from movie_management import movie_catalog
 from add_new_movies import *
 
-
-def gen_recs(user):
+def gen_recs():
+    print(f"All genres: {genre_set}")
+    pref_genres = input("Enter your preferred genre from the above set: ")
+    print()
     list1 = []
-    pref_genres = user.get_preferred_genres()
     for movie in movie_catalog:
-        if movie["genre"] in pref_genres:
+        if movie["genre"] == pref_genres:
             list1.append(movie["title"])
     return list1
-print(f"Movie recommendations for {user1.username}: {gen_recs(user1)}")
-print(f"Movie recommendations for {user2.username}: {gen_recs(user2)}")
 
