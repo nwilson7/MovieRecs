@@ -12,7 +12,7 @@ def handle_add_movie():
     for movie in movie_catalog:
         if movie_title == movie["title"]:
             print("Movie already exists in the catalog")
-            break
+            return ""
     movie_genre = input("Enter the movie genre: ")
     add_new_movies(movie_title, movie_genre)
     return f"Movie '{movie_title}' added successfully!"
